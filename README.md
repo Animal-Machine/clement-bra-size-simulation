@@ -12,7 +12,7 @@ Il est nécessaire de cloner le projet localement pour travailler dessus.
 Une fois dans le répertoire de travail, lancer
 
 ```
-git clone git@github.com:himaku/clement-bra-size-simulation.git
+git clone git@github.com:Animal-Machine/clement-bra-size-simulation.git
 ```
 
 cela va créer un nouveau dossier appelé `clement-bra-size-simulation` avec le
@@ -64,12 +64,12 @@ Il y a également un script pour cela, écrit en bash:
 ## Intégrer dans le site client
 
 Le widget ens disponible à l'adresse
-[https://himakuweb.github.io/clement-bra-size-simulation/](https://himakuweb.github.io/clement-bra-size-simulation/)
+[https://animal-machine.github.io/clement-bra-size-simulation/](https://animal-machine.github.io/clement-bra-size-simulation/)
 
 Il se compose de 2 fichiers:
 
-- `https://himakuweb.github.io/clement-bra-size-simulation/main.js`
-- `https://himakuweb.github.io/clement-bra-size-simulation/main.css`
+- `https://animal-machine.github.io/clement-bra-size-simulation/main.js`
+- `https://animal-machine.github.io/clement-bra-size-simulation/main.css`
 
 Pour initialiser le widget, il faut appeler le script suivant:
 
