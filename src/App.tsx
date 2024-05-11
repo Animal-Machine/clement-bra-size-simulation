@@ -29,7 +29,7 @@ function App(_: AppProps) {
       </p>
       <ToggleButton
         isActive={appState.isAsymetric}
-        labelOn="Asymetrique"
+        labelOn="Asymétrique"
         labelOff="Symétrique"
         onToggle={appStateActions.toggleIsAsymetric}
       />
@@ -37,9 +37,9 @@ function App(_: AppProps) {
         {appState.isAsymetric ? (
           <>
             <p className={`${BLOCK}_help-text`}>
-              Placez le mètre ruban entre vos seins (au niveau du décolleté),
-              passez le sur la pointe de votre sein en vous arrêtant au milieu
-              du dos, sans serrer le mètre ruban.
+              Placez votre mètre ruban au niveau du décolleté, passez au-dessus
+              du téton, puis arrêtez vous à la fin de votre sein, avant que vous
+              touchiez votre côte. Attention, le ruban doit être droit.
             </p>
             <div className={`${BLOCK}_cup-grid`}>
               <div className={`${BLOCK}_cup-grid-item`}>
