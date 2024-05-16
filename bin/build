@@ -7,7 +7,7 @@
  */
 const path = require("path");
 const rewire = require("rewire");
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 // Override weboack config to compile as a library
 const defaults = rewire("react-scripts/scripts/build.js");
@@ -28,5 +28,7 @@ config.plugins[0].userOptions.template = path.resolve(
 config.plugins[0].userOptions.scriptLoading = "blocking";
 config.plugins[0].userOptions.inject = "head";
 // Do not add hash to css file name
-const cssPlugin = config.plugins.find(plugin => plugin instanceof MiniCssExtractPlugin);
-cssPlugin.options.filename = 'main.css'
+const cssPlugin = config.plugins.find(
+  (plugin) => plugin instanceof MiniCssExtractPlugin
+);
+cssPlugin.options.filename = "main.css";
